@@ -1,0 +1,145 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Leon Template
+        link(rel="stylesheet", href="css/main.css")
+        link(rel="stylesheet", href="css/normalize.css")
+        link(rel="stylesheet", href="css/all.min.css")
+    body 
+    -// Start Header Box
+    .header 
+        .container 
+            .logo
+                img(src="images/logo.png", alt="")
+            .links
+                .bars 
+                    span 
+                    span 
+                    span 
+                ul.main-list 
+                    li 
+                        a(href="#") Home
+                    li 
+                        a(href="#services") Services
+                    li 
+                        a(href="#portfolio") Portfolio
+                    li 
+                        a(href="#about") About
+                    li 
+                        a(href="#contact") Contact
+    -// Start Slider Box
+    .slider 
+        .container 
+            .heading-title 
+                h1 Hello There!
+                p We are Leon - Super Creative & minmal Agnency Web Template
+    -// Start Featuers Box
+    .featuers 
+        .container
+            .box 
+                i(class="fas fa-magic")
+                h3 Tell Us Your Idea
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, molestiae ex similique cumque obcaecati ratione.
+            .box 
+                i(class="fas fa-gem")
+                h3 We Will Do All The Work
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, molestiae ex similique cumque obcaecati ratione.
+            .box 
+                i(class="fas fa-globe-americas")
+                h3 Your Product is Worldwide
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, molestiae ex similique cumque obcaecati ratione.
+
+    -// Start Services Box
+    div(class="services" id="services")
+        .container 
+            .special-heading 
+                h2 Services
+                p Don't be busy, be productive
+            .content
+                .col
+                    .box 
+                        i(class="fas fa-pen") 
+                        .text
+                            h3 Graphic Design 
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatibus nulla totam officiis non tenetur!
+                    .box 
+                        i(class="fas fa-chart-bar")
+                        .text
+                            h3 Web Design 
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatibus nulla totam officiis non tenetur!
+                .col
+                    .box 
+                        i(class="fas fa-link") 
+                        .text
+                            h3 UI & UX 
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatibus nulla totam officiis non tenetur!
+                    .box 
+                        i(class="fas fa-laptop")
+                        .text
+                            h3 Web Development 
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatibus nulla totam officiis non tenetur!
+                .col 
+                    .image
+                        img(src="https://cdn.pixabay.com/photo/2016/10/21/09/25/sunset-1757593__340.jpg", alt="")
+    -// Start portfolio Box
+    div(class="portfolio" id="portfolio")
+        .container 
+            .special-heading 
+                h2 Portfolio
+                p if you do it right, it will last forever
+            .content 
+                .box 
+                    img(src="https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640__340.jpg", alt="")
+                    h3 Project Name
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit architecto, ullam atque excepturi ex ratione?
+                .box 
+                    img(src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822__340.jpg", alt="")
+                    h3 Project Name
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit architecto, ullam atque excepturi ex ratione?
+                .box 
+                    img(src="https://cdn.pixabay.com/photo/2015/06/24/15/45/hands-820272__340.jpg", alt="")
+                    h3 Project Name
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit architecto, ullam atque excepturi ex ratione?
+            .more 
+                a(href="") Show More
+
+    -// Start about Box
+    div(class="about" id="about")
+        .container 
+            .special-heading 
+                h2 About
+                p less is more work
+            .content 
+                .image 
+                    img(src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667__340.jpg", alt="")
+                .text 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam voluptate voluptates corrupti autem dicta tenetur molestias reprehenderit qui nulla commodi quam voluptatem aliquid unde mollitia aut eveniet illo iste quasi, numquam non delectus. Dolorem ipsum illum quisquam odio error.
+                    hr
+                    p Lorem ipsum, dolor sit amet consectetur adipisicing elit. At iste fugiat consequuntur cumque qui itaque aspernatur quod ducimus expedita eligendi, illo unde dolorem, debitis atque similique ea voluptatibus perspiciatis neque?
+    -// Start contact Box
+    div(class="contact" id="contact")
+        .container 
+            .special-heading 
+                h2 Contact
+                p We are born to create
+            .content 
+                h2 Feel free to drop us a line at: 
+                p leonagency@mail.commodi
+                    .links-box 
+                        span Find us on social Network
+                        a(href="" class="ball") 
+                            i(class="fas fa-volleyball-ball")
+                        a(href="" class="google") 
+                            i(class="fab fa-google-plus-g")
+                        a(href="" class="twitter") 
+                            i(class="fab fa-twitter")
+    .copyright 
+        .container 
+            p &copy; 2019 -
+                span leon 
+                |All right Reserved Design By 
+                span Yusuf Azzam
+    script(src="js/script.js")
